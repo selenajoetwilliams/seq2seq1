@@ -1,5 +1,23 @@
 # following tutorial from https://youtu.be/EoGUlvhRYpk
 
+'''
+NOTES: (read this first)
+
+My model doesn't work because of a few errors -- largely to do with imports and my environment,
+which don't have the necessary Field and Bucket iterator that the tutorial uses (since those features
+have been deprecated in the current version of pytorch).
+
+Instead of trying to research alternatives for Field & BucketIterator, I am going to make a new
+seq2seq model that follows the latest pytorch documentation found at this link:
+
+https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
+
+I'll make a new repository & treat it as a new tutorial.
+
+Buh-bye!
+
+'''
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
